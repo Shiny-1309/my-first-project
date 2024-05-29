@@ -30,3 +30,7 @@ image_path = 'test_image.jpg'
 predicted_emotion = predict_emotion(image_path)
 print("Predicted Emotion:", predicted_emotion)
 
+# train and test
+ image =train_process(image)
+ train_image=model.predict(image)
+ 
