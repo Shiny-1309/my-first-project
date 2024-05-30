@@ -28,6 +28,7 @@ def predict_emotion(image_path):
 # Test emotion recognition
 image_path = 'test_image.jpg'
 predicted_emotion = predict_emotion(image_path)
+
 print("Predicted Emotion:", predicted_emotion)
 
 # train and test
